@@ -17,7 +17,7 @@ class MyDocument extends Document {
 	        <link rel="stylesheet" href="assets/css/themes/freelancer.css" />
 	        <script async src="assets/vendors/modernizr.min.js"></script>
         </Head>
-        <body>
+        <body data-mobile-nav-trigger-alignment="right" data-mobile-nav-align="left"   > 
           <Main />
           <NextScript />
 

@@ -16,8 +16,8 @@ export const About = () => {
 								data-custom-animations="true"
 								data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","startDelay":"500","delay":"30","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":45,"translateZ":-125,"rotateZ":-1,"opacity":0},"animations":{"translateY":0,"translateZ":0,"rotateZ":0,"opacity":1}}'>
 
-								<h3 className="text-white">About me</h3>
-								<p className="mb-60">My name is Eugenia, I’m a freelance Branding & Digital Designer based by the valley in New York. I also have major skills in motion graphics.</p>
+								<h3 className="text-white">Sobre mi</h3>
+								<p className="mb-60">Mi nombre es Willy Cordon y soy un apasionado por la tegnologia, programo e investigo la mayor parte del día</p>
 								<ul className="social-icon scheme-white social-icon-md">
 									<li> <a href="#" target="_blank"><i className="fa fa-facebook"></i></a></li>
 									<li> <a href="#" target="_blank"><i className="fa fa-medium"></i></a></li>
@@ -32,10 +32,10 @@ export const About = () => {
 								<div className="liquid-counter liquid-counter-huge liquid-counter-xl text-white">
 
 									<span className="liquid-counter-text liquid-text-top">More Than</span>
-									<div className="liquid-counter-element text-primary" data-enable-counter="true" data-counter-options='{ "targetNumber": "7", "blurEffect": true }'>
-										<span>7</span>
+									<div className="liquid-counter-element text-primary" data-enable-counter="true" data-counter-options='{ "targetNumber": "4", "blurEffect": true }'>
+										<span>4</span>
 									</div>
-									<span className="liquid-counter-text liquid-text-bottom">Years of experience</span>
+									<span className="liquid-counter-text liquid-text-bottom">Años de experiencia</span>
 								
 								</div>
 

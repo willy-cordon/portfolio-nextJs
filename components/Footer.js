@@ -69,7 +69,7 @@ const footer = () => {
 
 		</section>
 
-		<section className="pt-35 pb-35" style={{backgroundColor:" #060742;"}}>
+		{/* <section className="pt-35 pb-35" style={{backgroundColor:" #060742;"}}>
 			<div className="container">
 				<div className="row d-flex flex-wrap align-items-center">
 	
@@ -100,7 +100,7 @@ const footer = () => {
 	
 				</div>
 			</div>
-		</section>
+		</section> */}
 		
 	</footer>
     )

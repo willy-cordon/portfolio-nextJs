@@ -14,14 +14,15 @@ const Navbar = () => {
                     <div className="col-auto">
         
                       <div className="navbar-header">
-                        <a className="navbar-brand" href="index.html" rel="home">
+                         <a className="navbar-brand" href="index.html" rel="home">
                           <span className="navbar-brand-inner">
                             <img className="logo-dark" src="./assets/img/logo/logo-1.svg" alt="Ave HTML Template" />
                             <img className="logo-sticky" src="./assets/img/logo/logo-1.svg" alt="Ave HTML Template" />
-                            <img className="mobile-logo-default" src="./assets/img/logo/logo-1.svg" alt="Ave HTML Template" />
+                            {/* <img className="mobile-logo-default" src="./assets/img/logo/logo-1.svg" alt="Ave HTML Template" /> */}
+                            <span className='mobile-logo-default'>WC</span>
                             <img className="logo-default" src="./assets/img/logo/logo-light.svg" alt="Ave HTML Template" />
                           </span>
-                        </a>
+                        </a> 
                         <button type="button" className="navbar-toggle collapsed nav-trigger style-mobile" data-toggle="collapse" data-target="#main-header-collapse" aria-expanded="false" data-changeclassnames='{ "html": "mobile-nav-activated overflow-hidden" }'>
                           <span className="sr-only">Toggle navigation</span>
                           <span className="bars">
@@ -110,6 +111,18 @@ const Navbar = () => {
           </div>
           
         </header>
+        <style jsx>
+          {`
+            .txt{
+              font-size:20px !important
+            }
+            .main-header .main-nav{
+              backgraund: white !important;
+              color:black
+            }
+          
+          `}
+        </style>
         </>
     )
 }
