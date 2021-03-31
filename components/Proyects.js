@@ -58,11 +58,143 @@ const Proyects = () => {
 								</div>
 						
 							</div>
+							
+							
+							
 					
 							<div className="row liquid-portfolio-list-row" data-liquid-masonry="true" data-masonry-options='{ "filtersID": "#portdolio-grid-1" }'>
+
+							<div class="lqd-column col-lg-12 col-sm-6 masonry-item branding">
+
+<div class="lqd-column col-md-4">
+
+	<div class="ld-flipbox">
+
+		<div class="ld-flipbox-wrap">
+		
+			<div class="ld-flipbox-face ld-flipbox-front" style={{backgroundImage:" url(https://neilpatel.com/wp-content/uploads/2020/09/image2-7.png);"}}>
+	
+				<span class="ld-flipbox-overlay ld-overlay bg-fade-dark-045"></span>
+				
+				<div class="ld-flipbox-inner">
+					
+					<h3 class="font-size-24 mt-0">Flipbox Title</h3>
+					<p class="mb-0">All transactions that occur on Envato.</p>
+					
+				</div>
+				
+			</div>
+			
+			<div class="ld-flipbox-face ld-flipbox-back">
+				
+				<span class="ld-flipbox-overlay ld-overlay"></span>
+	
+				<div class="ld-flipbox-inner">
+	
+					<a href="#" class="btn btn-solid font-size-12 lh-2 text-uppercase ltr-sp-175 btn-white">
+						<span>
+							<span class="btn-txt">Discover One</span>
+							<a href="www.github.com">github</a>
+							<a href="www.facebook.com">Link</a>
+						</span>
+					</a>
+	
+				</div>
+	
+			</div>
+	
+		</div>
+	
+	</div>
+
+</div>
+
+<div class="lqd-column col-md-4">
+
+	<div class="ld-flipbox">
+
+		<div class="ld-flipbox-wrap">
+	
+			<div class="ld-flipbox-face ld-flipbox-front" style={{backgroundImage: "url(./assets/demo/misc/fb-17.jpg);"}}>
+	
+				<span class="ld-flipbox-overlay ld-overlay bg-fade-dark-045"></span>
+				
+				<div class="ld-flipbox-inner">
+					
+					<h3 class="font-size-24 mt-0">Flipbox Title</h3>
+					<p class="mb-0">All transactions that occur on Envato.</p>
+					
+				</div>
+				
+			</div>
+			
+			<div class="ld-flipbox-face ld-flipbox-back">
+				
+				<span class="ld-flipbox-overlay ld-overlay"></span>
+	
+				<div class="ld-flipbox-inner">
+	
+					<a href="#" class="btn btn-solid font-size-12 lh-2 text-uppercase ltr-sp-175 btn-white">
+						<span>
+							<span class="btn-txt">Discover One</span>
+						</span>
+					</a>
+	
+				</div>
+	
+			</div>
+	
+		</div>
+	
+	</div>
+
+</div>
+
+<div class="lqd-column col-md-4">
+
+	<div class="ld-flipbox">
+
+		<div class="ld-flipbox-wrap">
+	
+			<div class="ld-flipbox-face ld-flipbox-front" style={{backgroundImage:" url(./assets/demo/misc/fb-18.jpg);"}}>
+	
+				<span class="ld-flipbox-overlay ld-overlay bg-fade-dark-045"></span>
+				
+				<div class="ld-flipbox-inner">
+					
+					<h3 class="font-size-24 mt-0">Flipbox Title</h3>
+					<p class="mb-0">All transactions that occur on Envato.</p>
+					
+				</div>
+				
+			</div>
+			
+			<div class="ld-flipbox-face ld-flipbox-back">
+				
+				<span class="ld-flipbox-overlay ld-overlay"></span>
+	
+				<div class="ld-flipbox-inner">
+	
+					<a href="#" class="btn btn-solid font-size-12 lh-2 text-uppercase ltr-sp-175 btn-white">
+						<span>
+							<span class="btn-txt">Discover One</span>
+						</span>
+					</a>
+	
+				</div>
+	
+			</div>
+	
+		</div>
+	
+	</div>
+
+</div>
+
+</div>
 						
-								<div className="lqd-column col-lg-4 col-sm-6 masonry-item branding">
-						
+								{/* <div className="lqd-column col-lg-4 col-sm-6 masonry-item branding">
+								
 									<div className="ld-pf-item ld-pf-dark pf-details-inside pf-details-boxed pf-details-circle pf-details-pull-down pf-details-pull-left title-size-18 pf-details-h-str pf-details-v-end pf-contents-mid pf-hover-masktext">
 						
 										<div className="ld-pf-inner">
@@ -89,9 +221,9 @@ const Proyects = () => {
 						
 									</div>
 						
-								</div>
+								</div> */}
 						
-								<div className="lqd-column col-lg-8 col-sm-6 masonry-item uxui branding">
+								{/* <div className="lqd-column col-lg-8 col-sm-6 masonry-item uxui branding">
 						
 									<div className="ld-pf-item ld-pf-dark pf-details-inside pf-details-boxed pf-details-circle pf-details-pull-down pf-details-pull-left title-size-18 pf-details-h-str pf-details-v-end pf-contents-mid pf-hover-masktext">
 						
@@ -119,7 +251,7 @@ const Proyects = () => {
 						
 									</div>
 						
-								</div>
+								</div> */}
 						
 								<div className="lqd-column col-lg-4 col-sm-6 masonry-item ecommerce">
 						
@@ -128,7 +260,7 @@ const Proyects = () => {
 										<div className="ld-pf-inner">
 						
 											<div className="ld-pf-image">
-												<figure style={{backgroundImage:" url(./assets/demo/portfolio/pf-39.jpg);"}}>
+												<figure style={{backgroundImage:" url(https://neilpatel.com/wp-content/uploads/2020/09/image2-7.png);"}}>
 													<img src="./assets/demo/portfolio/pf-39.jpg" alt="Portfolio Image" />
 												</figure>
 											</div>
@@ -138,7 +270,9 @@ const Proyects = () => {
 												<div className="ld-pf-details-inner justify-content-center" data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "startDelay": 200, "duration": 650, "delay": 150, "initValues": { "translateY": "150%" }, "animations": { "translateY": "0", "rotateX": 0 } }'>
 													<h3 className="ld-pf-title h4 font-weight-bold" data-split-text="true" data-split-options='{ "type": "lines" }'>Electro summer wave poster</h3>
 													<div className="ld-pf-category size-md" data-split-text="true" data-split-options='{ "type": "lines" }'>
-														<a href="#">Graphic Design</a>
+														<a href="www.google.com">Github</a>
+
+														<a href="www.facebook.com">Link</a>
 													</div>
 												</div>
 											</div>
